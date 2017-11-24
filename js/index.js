@@ -16,6 +16,7 @@ function set(href) {
   var img = document.createElement('IMG');
 
   img.setAttribute('src', href);
+  img.setAttribute('class', 'animated bounceIn')
   root.appendChild(img);
 }
 
